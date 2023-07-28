@@ -51,7 +51,7 @@ read -rp "Enter application environment name: " environment_name
 read -rp "Enter container component name: " component_name
 read -rp "Enter GitHub personal access token (classic): " github_token
 read -rp "Enter GitHub reposity name: " repository_name
-full_repository_name="Digital-Garage-ICL/${repository_name}"
+full_repository_name="Gum-Joe/${repository_name}"
 
 # set the token as a Github secret
 version=$(wf serverinfo -o json | jq -r .version.release)
